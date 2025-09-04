@@ -157,14 +157,14 @@ function App() {
       {/* Akhir Proyek Section */}
 
       {/* Awal Kontak Section */}
-      <div className="kontak mt-32 p-10">
+      <div className="kontak mt-32 sm:p-10 p-0">
         <h1 className="text-4xl font-bold mb-2 text-center">Kontak</h1>
         <p className="text-base/loose text-center mb-10 opacity-50">
           Mari terhubung dengan saya.
         </p>
         <form
           action="https://formsubmit.co/abigel649@gmail.com" method="POST"
-          className="bg-zinc-800 p-10 w-fit mx-auto rounded-md"
+          className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
         >
           <div className="flex flex-col gap-6">
